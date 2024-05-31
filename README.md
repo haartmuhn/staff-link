@@ -23,7 +23,6 @@ Staff Link is a robust command-line application designed to streamline the manag
 - [Tests](#tests)
 - [License](#license)
 
-
 ## Installation
 
 1. **Clone the repository**:
@@ -94,7 +93,14 @@ Contributions to Staff Link are highly appreciated! Whether it's fixing bugs, im
 5. Submit a pull request.
 
 ## Tests
-At present, Staff Link does not have automated tests. However, manual testing is encouraged to ensure all functionalities work as expected across different scenarios. Future iterations of the application may include a robust testing suite to enhance reliability and stability.
+
+To run tests, execute the following command:
+
+```bash
+npm test
+```
+
+(Note: You will need to write the tests based on the endpoints and operations your application performs, as this is not set up by default.)
 
 ## License
 Staff Link is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this application according to the terms of the license.
